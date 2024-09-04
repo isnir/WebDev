@@ -1,0 +1,6 @@
+****************************************
+Esta e a pasta principal do projeto.
+
+****************************************
+
+coloquei os arquivos eu que estava fazendo nas aula anteriores aqui, temporariamente, conforme formos trabalhando no projeto iremos atualizar isto -> Rui
