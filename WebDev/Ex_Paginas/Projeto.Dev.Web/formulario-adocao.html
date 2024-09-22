@@ -12,6 +12,7 @@
         html {
             font-size: 14px;
             font-family: 'Open Sans', sans-serif;
+            
         }
 
         h1 {
@@ -20,7 +21,8 @@
             margin: 0;
             padding: 20px 0;
             color: #4E2C33;
-            text-shadow: 3px 3px 1px rgb(255, 255, 255);
+            /* text-shadow: 3px 3px 1px rgb(255, 255, 255); */
+            border-radius: 5px;
         }
 
         html {
@@ -28,11 +30,13 @@
         }
 
         body {
+            border-radius: 20px;
             width: 800px;
             margin: 0 auto;
-            background-color: #d8a6de91;
+            background-color: #f6f6f691;
             padding: 0 20px 20px 20px;
             border: 5px solid rgb(255, 255, 255);
+            
         }
 
         img {
@@ -44,6 +48,7 @@
         }
 
         .botao {
+            border-radius: 5px;
             font-size: 1.5em;
             background: #4E2C33;
             border: 0;
@@ -56,7 +61,7 @@
     </style>
     </style>
     <title>Formato CPF</title>
-    <script src="script.js"></script>
+    <script src="script.js" ></script>
 </head>
 
 <body>
@@ -72,20 +77,20 @@
     <img src="./Imagens/adoção1.jpg" alt="gato-adocao" width="300px" height="300px" />
 
     <!-- FORMULÁRIO  -->
-    <form action="#" method="post">
+    <form action="#" method="post" >
 
-        <fieldset>
+        <fieldset >
             <legend>Dados</legend>
             <!-- CONTAINER -->
             <div class="campo">
-                <label><span style="color: red"> * </span>Nome do adotante:</label>
+                <label><span style="color: red"> * </span >Nome do adotante:</label>
                 <input type="text" id="nome" name="nome" placeholder="Digite o nome..." pattern="[a-zA-Z\s]{2,40}"
                     style="width: 20em" required />
             </div>
             <br>
-            <div class="campo">
+            <div class="campo" >
                 <label><span style="color: red"> * </span>Endereço do adotante:</label>
-                <input type="text" id="endereco" name="endereco" placeholder="Rua, Alameda, Avenida..."
+                <input type="text" id="endereco" name="endereco" placeholder="Rua, Alameda, Avenida..." 
                     pattern="[a-zA-Z\s]{2,40}" style="width: 20em" required />
             </div>
             <br>
