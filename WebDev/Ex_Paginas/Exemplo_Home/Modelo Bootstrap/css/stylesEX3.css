@@ -598,9 +598,14 @@ progress {
   content: "— ";
 }
 
+.img-cardapio {
+  height: 30rem;
+  max-width: 100%;
+}
+
 .img-fluid {
   max-width: 100%;
-  height: 28rem;
+  height: auto;
 }
 
 .img-thumbnail {
@@ -10987,7 +10992,7 @@ header.masthead .masthead-heading {
   }
 }
 #portfolio .portfolio-item {
-  max-width: 26rem;
+  max-width: 28rem;
   margin-left: auto;
   margin-right: auto;
   border: medium solid black;
