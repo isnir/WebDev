@@ -1,0 +1,38 @@
+.cards-wrapper {
+  display: flex;
+}
+
+.card {
+  margin: 0.5em;
+  width: calc(100% / 3);
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+
+.carousel-inner {
+  padding: 1em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #00bac6;
+  /* width: 6vh;
+    height: 6vh; */
+  border-radius: 50%;
+  top: 50%;
+  /* transform: translateY(-50%); */
+}
+
+/* .carousel-control-prev span, .carousel-control-next span {
+    width: 1.5rem;
+    height: 1.5rem;
+} */
+
+.image-wrapper {
+  height: 15vw;
+  margin: 0 auto;
+}
+
+.image-wrapper img {
+  width: 80%;
+  height: 80%;
+}
