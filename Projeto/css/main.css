@@ -30,7 +30,12 @@ li {
 */
 
 #bemvindo {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
+  padding: 250px;
+  margin-bottom: 15px;
+}
+
+#services{
   padding: 250px;
   margin-bottom: 15px;
 }
@@ -71,7 +76,7 @@ li {
 */
 
 #reserva {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   padding: 250px;
   margin-bottom: 15px;
 }
@@ -87,12 +92,29 @@ li {
   color: #cfada4;
 }
 
+.card-body{
+  width: auto;
+  height: auto;
+
+}
+
+.image-wrapper{
+  width: 100%;
+  height: auto;
+  text-align: center;
+
+}
+
+.card-img-top{
+  object-fit: fill;
+}
+
 /*
 ****  contato  ****
 */
 
 #contato {
-  border: 1px solid rgb(255, 0, 221);
+  /*border: 1px solid rgb(255, 0, 221);*/
   padding: 20px;
   background-color: #4e2c33;
   color: white;
