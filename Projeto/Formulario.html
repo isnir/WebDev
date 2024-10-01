@@ -41,9 +41,18 @@
             border: 5px solid rgb(255, 255, 255);
 
         }
-
+        
         img {
             border-radius: 50%;
+            
+        }
+        .gatoadoca {
+            text-align: center;
+            padding-bottom: 10px ;
+        } 
+        .gatoadoca img{
+            width: 300px;
+            height: 300px;;
         }
 
         input:invalid {
@@ -83,8 +92,9 @@
 
         <!-- IMAGEM -->
 
-        <img src="./assets/img/adoção1.jpg" alt="gato-adocao" width="300px" height="300px" />
-
+        <div class="gatoadoca">
+            <img src="./assets/img/adoção1.jpg" alt="gato-adocao"/>
+        </div>
         <!-- FORMULÁRIO  -->
         <form action="#" method="post">
 
@@ -149,7 +159,7 @@
                     </div>
                     <br>
 
-                    <input button class onclick="alert('Formulario enviado com Sucesso!')"  " botao submit " type="submit" name="submit"></button>
+                    <input button type="submit" name="submit" onclick="alert('Formulario enviado com Sucesso!')"></button>
                 </div>
                 </div>
                 </div>
