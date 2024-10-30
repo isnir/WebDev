@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <!-- 
+    <link rel="stylesheet" type="text/css" href="./CSS/body.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/tooltip.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
+    <style type="text/css">
+        html {
+            font-size: 14px;
+            font-family: 'Open Sans', sans-serif;
+
+        }
+
+        h1 {
+            font-size: 60px;
+            text-align: center;
+            margin: 0;
+            padding: 20px 0;
+            color: #4E2C33;
+            /* text-shadow: 3px 3px 1px rgb(255, 255, 255); */
+            border-radius: 5px;
+        }
+
+        html {
+            background-color: #4E2C33;
+            background-image: url(assets/img/gato1.png);
+        }
+
+        body {
+            border-radius: 20px;
+            width: 800px;
+            margin: 0 auto;
+            background-color: #f6f6f691;
+            padding: 0 20px 20px 20px;
+            border: 5px solid rgb(255, 255, 255);
+
+        }
+        
+        img {
+            border-radius: 50%;
+            
+        }
+        .gatoadoca {
+            text-align: center;
+            padding-bottom: 50px ;
+        } 
+        .gatoadoca img{
+            margin-right: 30px;
+        }
+
+        input:invalid {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .campo {
+            text-align: center;
+        }
+
+        .campo2 {
+            text-align: center;
+        }
+
+        .campo2 input {
+            margin-left: 5px;
+            border-radius: 10px;
+        }
+
+        .campo input {
+            border-radius: 10px;
+        }
+
+        .voltar { 
+            float: left;
+        }
+
+        .btn {
+            border-radius: 10px;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        
+        
+    </style>
+    <title>Login</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+        <h1>Sign In</h1>
+        <!--Link abrindo outra janela guia-->
+        <div class="voltarHome" >
+            <span class="tooltiptext">Voltar ao inicio</span>
+            <a class="navbar-brand" href="#page-top"><img src="assets/img/novelo.svg" alt="..." /></a>
+        </div>
+
+        <!-- IMAGEM -->
+
+        <div class="gatoadoca">
+            <img src="./assets/img/login3.png" alt="gato-adocao"/>
+        </div>
+        <!-- FORMULÁRIO  -->
+        <div class="campo2">
+            <label><span style="color: red"> * </span>Login:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite o login..." style="width: 20em" required />
+        </div>
+        <br>
+        <div class="campo">
+            <label><span style="color: red"> * </span>Senha:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite o senha..." style="width: 20em" required />
+        </div>
+        <br>
+        <div class="btn">
+            <button type="submit" name="submit">Login</button>
+            <button>Cadastro</button>
+        </div>
+</body>
+
+</html>

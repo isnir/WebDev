@@ -1,10 +1,14 @@
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
 
-    <!-- 
-    <link rel="stylesheet" type="text/css" href="./CSS/body.css"> -->
+ 
+    <link rel="stylesheet" type="text/css" href="./CSS/tooltip.css"> 
+    <link rel="stylesheet" type="text/css" href="css/navbar.css" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
 
@@ -75,18 +79,20 @@
 
         }
     </style>
-    </style>
     <title>Formulario</title>
     <script src="script.js"></script>
 </head>
 
 <body>
-    <form action="config.php" method="post">
+    <form action="formulario-de-adocao.php" method="POST">
         <h1>Formulário de adoção</h1>
         <!--Link abrindo outra janela guia-->
-        <a href="index.html" >
-      <h3><img src="./assets/img/novelo.svg" alt="ico"></h3>
-        </a>
+
+        <div class="voltarHome" >
+            <span class="tooltiptext">Voltar ao inicio</span>
+            <a class="navbar-brand" href="#page-top"><img src="assets/img/novelo.svg" alt="..." /></a>
+
+        </div>
 
         <!-- IMAGEM -->
 
@@ -94,7 +100,7 @@
             <img src="./assets/img/adoção1.jpg" alt="gato-adocao"/>
         </div>
         <!-- FORMULÁRIO  -->
-        <form action="config.php" method="post">
+        <form action="#" method="post">
 
             <fieldset>
                 <legend>Dados</legend>
@@ -113,7 +119,7 @@
                 <br>
                 <div class="campo">
                     <label><span style="color: red"> * </span>CEP do adotante:</label>
-                    <input type="text" id="cep" name="cep" placeholder="00000-000" pattern="\d{5}-\d{3}"
+                    <input type="text" id="nome" name="nome" placeholder="00000-000" pattern="\d{5}-\d{3}"
                         style="width: 5em" required />
                     <br>
                 </div>
@@ -127,7 +133,7 @@
                 <br>
                 <div class="campo">
                     <label><span style="color: red"> * </span>Celular:</label>
-                    <input id="celular" name="celular" placeholder="(ddd)(999999999)" required />
+                    <input id="celular" placeholder="(ddd)(999999999)" required />
 
                 </div>
                 <br>
@@ -150,14 +156,14 @@
 
                     <div class="campo">
                         <label>Mensagem:</label>
-                        <textarea id="mensagem" name="mensagem" style="width:30em"
+                        <textarea name="message" style="width:30em"
                             placeholder="Preferência de cor da pelagem?"></textarea>
                         <br>
                         <br>
                     </div>
                     <br>
 
-                    <input button type="submit" name="submit" ('Formulario enviado com Sucesso!')></button>
+                    <input button type="submit" name="submit" onclick="alert('Formulario enviado com Sucesso!')"></button>
                 </div>
                 </div>
                 </div>

@@ -9,25 +9,39 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="css/tooltip.css" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style type="text/css">
         body {
             font-family: 'Open Sans', sans-serif;
             color: white;
+            text-align: center;
             /*background-color: #4E2C33;*/
             background-image: url(assets/img/gato1.png);
             background-repeat: no-repeat;
             background-size: cover;
         }
 
+        
+        .img {
+            float: left;
+            margin-left: 30px;
+            margin-top: 30px;
+            color: white;
+            text-decoration: none;
+        }
+        
+
 </style>
     <title>Sobre nós</title>
 </head>
 <body>
         <!--Link abrindo outra janela guia-->
-        <a href="index.html">
-            <h3><img src="./assets/img/novelo.svg" alt="ico"></h3>
-              </a>
+        <div class="voltarHome img" >
+            <span class="tooltiptext">Voltar ao inicio</span>
+            <a href="#page-top"><img src="assets/img/novelo.svg" alt="..." /></a>
+        </div>
       
     <section class="page-section" id="about">
         <div class="container">
@@ -36,7 +50,6 @@
                 <h3 class="section-subheading">Equipe</h3>
             </div>
             <ul class="timeline">
-                <li>
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/lazaro_animal.jpg" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -45,8 +58,6 @@
                         </div>
                         <div class="timeline-body"><p class="">Estudante de Análise e Desenvolvimento de Sistemas, cursando primeiro período. <br> E-mail: lazaro.junior@outlook.com</p></div>
                     </div>
-                </li>
-                <li class="timeline-inverted">
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/Angel.jpeg" width="180px" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -55,8 +66,6 @@
                         </div>
                         <div class="timeline-body"><p class="">Estudante de Análise e Desenvolvimento de Sistemas, cursando segundo período. <br>"Este é o meu primeiro site, espero que fique bacana!" <br> E-mail: Gracafigueiro@outlook.com</p></div>
                     </div>
-                </li>
-                <li>
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="./assets/img/N.jpg" width="180px"  alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -65,8 +74,6 @@
                         </div>
                         <div class="timeline-body"><p class="">Estudante de Análise e Desenvolvimento de Sistemas, cursando segundo período. <br> E-mail: nicolepsales@gmail.com <br></p></div>
                     </div>
-                </li>
-                <li class="timeline-inverted">
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -75,8 +82,6 @@
                         </div>
                         <div class="timeline-body"><p class="">Estudante de Ciência da Computação, cursando segundo período. <br> E-mail: Ruan_b3@hotmail.com </p></div>
                     </div>
-                </li> 
-                <li class="timeline-inverted">
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/rui_animal.jpg" width="200px" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -85,7 +90,6 @@
                         </div>
                         <div class="timeline-body"><p class="">Estudante de Análise e Desenvolvimento de Sistemas, cursando segundo período. <br> E-mail: ruigabriel765@gmail.com <br></p></div>
                     </div>
-                </li>
             </ul>
         </div>
     </section>
