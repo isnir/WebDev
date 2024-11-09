@@ -1,0 +1,49 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-color: #e6e6e6;
+    color: white;
+    font-size: 18px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    background-image: url(../imgs/gato1.png);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.container{
+    width: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+/* 
+    Created on : 31 de out. de 2024, 23:36:51
+    Author     : Gabriel
+*/
+

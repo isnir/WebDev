@@ -1,0 +1,29 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+.formTemplete{
+    display: inline-block;
+    color: black;
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;  
+    background-color: #e6e6e6;
+    margin-bottom: 80px;
+
+}
+
+.formContent{
+    text-align: left;
+}
+.formContent input{
+     border-radius: 4px;
+     border-width: 1px;
+}
+/* 
+    Created on : 1 de nov. de 2024, 00:02:02
+    Author     : Gabriel
+*/
+
