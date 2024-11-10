@@ -1,0 +1,60 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+table, th, td {
+    table-layout: auto;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: dimgrey;
+
+}
+
+th{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.buttonTable{
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.bEdit {
+    background-color: rgb(0, 89, 255);
+    color: white;
+
+    border: 2px solid rgb(0, 89, 255);
+}
+.bEdit:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid red;
+}
+
+.bDelete {
+    background-color: rgb(250, 70, 70);
+    color: white;
+
+    border: 2px solid rgb(250, 70, 70);
+}
+.bDelete:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid black;
+}
+
+/* 
+    Created on : 1 de nov. de 2024, 15:07:34
+    Author     : Gabriel
+*/
+
