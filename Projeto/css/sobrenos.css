@@ -1,130 +1,93 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
-*/
-html {
-    position: relative;
-    min-height: 100%;
-    
-    font-size: 14px;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    box-sizing: border-box;
-    margin-bottom: 100px;
-    margin: 0;
-    padding: 0;
-    padding-top: 50px;
-    padding-bottom: 80px;
-    background-color: #e6e6e6;
-    font-size: 18px;
-
-    background-image: url(../assets/img/gato1.png);
-
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
 }
 
-h1 {
-    font-size: 60px;
-    text-align: center;
-    margin: 0;
-    padding: 20px 0;
-    color: #4E2C33;
-    /* text-shadow: 3px 3px 1px rgb(255, 255, 255); */
-    border-radius: 5px;
+.NavBar {
+    background-color: #4a1d2f;
+    padding: 1rem;
 }
 
-.Background {
-    color: white;
-    text-align: center;
-
-    background-image: url(assets/img/gato1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-img {
-    border-radius: 50%;
-}
-
-.img {
-    float: left;
-    margin-left: 30px;
-    margin-top: 30px;
-    color: white;
-    text-decoration: none;
-}
-
-.gatoadoca {
-    text-align: center;
-    padding-bottom: 10px ;
-} 
-.gatoadoca img{
-    width: 300px;
-    height: 300px;;
-}
-
-input:invalid {
-    background-color: rgb(255, 255, 255);
-}
-
-.campo input {
-    border-radius: 10px;
-}
-
-.botao {
-    border-radius: 10px;
-    font-size: 1.5em;
-    background: #4E2C33;
-    border: 0;
-    margin-bottom: 1em;
-    color: #d3ada5;
-    padding: 0.2em 0.6em;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-
-
-}
-
-.Fonte { 
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
 .NavBar ul {
-    display: inline-block;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #4e2c33;
-}
-.NavBar li a {
-    display: inline-block;
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-/* Change the link color to #111 (black) on hover */
-.NavBar li a:hover {
-    display: inline-block;
-    background-color: #111;
-}
-.active {
-    background-color: #683b44;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 
+.NavBar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.NavBar ul li a:hover {
+    background-color: #333;
+    border-radius: 4px;
+}
+
+.sobre-nos-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 2rem;
+    color: #4a1d2f;
+    margin-bottom: 1.5rem;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 80%;
+    max-width: 600px;
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.team-member.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.member-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1.5rem;
+}
+
+.member-info {
+    text-align: left;
+}
+
+.member-info h3 {
+    font-size: 1.2rem;
+    color: #4a1d2f;
+    margin-bottom: 0.5rem;
+}
+
+.member-info p {
+    color: #555;
+    margin: 0.3rem 0;
+}
