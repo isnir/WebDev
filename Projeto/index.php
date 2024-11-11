@@ -70,8 +70,9 @@
                     echo "<li class='nav-item' style = 'float:right'><a  class='nav-link'><input class = 'link-button' form = 'btnSair' type = 'submit' value = 'Sair' name = 'btnSair'/> </a></li>";
                     echo "<li class='nav-item' style='float:right'><a  class='nav-link'>$logado</a></li>";
                 }
-
-                echo "<li class='nav-item' style = 'float:right'><a class='nav-link' href = 'database_login.php'>Registros de Login</a></li>";
+                if ((isset($_SESSION['login']) == true) and $_SESSION['login'] == "admin") {
+                    echo "<li class='nav-item' style = 'float:right'><a class='nav-link' href = 'database_login.php'>Registros de Login</a></li>";
+                }
            ?>
         </ul>
       </div>
