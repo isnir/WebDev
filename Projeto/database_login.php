@@ -16,6 +16,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
     </head>
     <body>
         <?php
+        // Iniciar a sessão e verificar se o usuário está logado
+        session_start();
+  
+        // Verificar se o usuário não está logado
+        if (!isset($_SESSION['login']) || $_SESSION['login'] == false) {
+        // Redirecionar para a página de login caso não esteja logado
+        header("Location: ./login_page.php");
+        }
+
         include './banco/sessionInfo/session.php';
         ?>
         <nav class="NavBar">
