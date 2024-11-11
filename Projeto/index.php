@@ -63,16 +63,22 @@
             <a class="nav-link" href="./Formulario.php">Adoção</a>
           </li>
           <?php
+                //O que eu fiz aqui:
+                //Se NÃO estiver logado, apresentar páginas de login e cadastro.
                 if ((isset($_SESSION['login']) == false)) {
                     echo "<li class='nav-item' style = 'float:right'><a  class='nav-link' href = './login_cadastro.php'>Cadastre-se</a></li>";
                     echo "<li class='nav-item' style = 'float:right'><a class='nav-link' href = './login_page.php'>Entrar</a></li>";
-                } else {
+                }
+                //Se estiver ligado apresentar o nome do usuário e a opção "Sair".
+                else {
                     echo "<li class='nav-item' style = 'float:right'><a  class='nav-link'><input class = 'link-button' form = 'btnSair' type = 'submit' value = 'Sair' name = 'btnSair'/> </a></li>";
                     echo "<li class='nav-item' style='float:right'><a  class='nav-link'>$logado</a></li>";
                 }
+                //Se estiver logado E for admin, dar acesso ao registro de login, é possivelmente outros.
                 if ((isset($_SESSION['login']) == true) and $_SESSION['login'] == "admin") {
                     echo "<li class='nav-item' style = 'float:right'><a class='nav-link' href = 'database_login.php'>Registros de Login</a></li>";
                 }
+               //Isso deve estar funcional, porém dá pra fazer melhor, se possível comparar o "nivel" em vez de "login".
            ?>
         </ul>
       </div>
