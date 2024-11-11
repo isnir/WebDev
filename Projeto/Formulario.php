@@ -1,3 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/formulario.css" />
+    <link rel="stylesheet" type="text/css" href="css/tooltip.css"> 
+    <link rel="stylesheet" type="text/css" href="css/navbar.css" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
+    <title>Formulario</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
 <?php
   // Iniciar a sessão e verificar se o usuário está logado
   session_start();
