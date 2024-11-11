@@ -118,7 +118,7 @@
                         <br>
                     </div>
                     <br>
-                    <input button type="submit" name="submit" value="Formulario enviado com Sucesso!"></button>
+                    <input button type="submit" name="submit" value="Enviar"></button>
                 </div>
             </fieldset>
         </form>
