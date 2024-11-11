@@ -36,7 +36,7 @@
     <div class="center container">
         <ul>
             <li><a class="active" href="index.php">Home</a></li>
-            <li><a href="sobrenos.php">Sobre Nos</a></li>
+            <li><a href="sobrenos.php">Sobre Nós</a></li>
             <?php
             if (!isset($_SESSION['login']) || $_SESSION['login'] == false) {
                 echo "<li style='float:right'><a href='./login_cadastro.php'>Cadastre-se</a></li>";
