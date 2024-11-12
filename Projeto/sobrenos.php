@@ -47,7 +47,7 @@
             </div>
         </div>
         <div class="team-member">
-            <img src="assets/img/about/N.png" alt="Nicole" class="member-img">
+            <img src="assets/img/Nicole_animal.jpg" alt="Nicole" class="member-img">
             <div class="member-info">
                 <h3>Nicole</h3>
                 <p>Estudante de Análise e Desenvolvimento de Sistemas, cursando segundo período.</p>
@@ -55,7 +55,7 @@
             </div>
         </div>
         <div class="team-member">
-            <img src="assets/img/about/3.jpg" alt="Ruan" class="member-img">
+            <img src="assets/img/Ruan_animal.jpg" alt="Ruan" class="member-img">
             <div class="member-info">
                 <h3>Ruan</h3>
                 <p>Estudante de Ciência da Computação, cursando segundo período.</p>
