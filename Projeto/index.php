@@ -28,7 +28,7 @@
   include './banco/sessionInfo/session.php';
   ?>
   <form id="btnSair" action="banco/sessionInfo/session.php" method="post"/></form>
-
+  <a id="page-top"></a>
   <!-- Inicio do Header -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
