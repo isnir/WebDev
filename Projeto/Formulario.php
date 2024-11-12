@@ -72,7 +72,7 @@
                 <div class="campo">
                     <label><span style="color: red"> * </span>Endereço do adotante:</label>
                     <input type="text" name="endereco" id="endereco" placeholder="Rua, Alameda, Avenida..."
-                        pattern="[a-zA-Z\s]{2,40}" style="width: 20em" required />
+                        pattern="[a-zA-Z1-9\s]{2,40}" style="width: 20em" required />
                 </div>
                 <br>
                 <div class="campo">
@@ -118,7 +118,7 @@
                         <br>
                     </div>
                     <br>
-                    <input button type="submit" name="submit" value="Formulario enviado com Sucesso!"></button>
+                    <input button type="submit" name="submit" value="Enviar!"></button>
                 </div>
             </fieldset>
         </form>
