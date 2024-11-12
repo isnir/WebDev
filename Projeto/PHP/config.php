@@ -13,7 +13,7 @@ $mensagem = isset($_POST['mensagem']) ? $_POST['mensagem'] : '';
 $server = 'localhost';
 $usuario = 'root';
 $senha = '';
-$banco = 'formulario_adocao';
+$banco = 'cafegato';
 
 // CONEXAO COM O BANCO DE DADOS
 $conn = new mysqli ($server, $usuario, $senha, $banco);
